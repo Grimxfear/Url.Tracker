@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/assets/stylesheet.css">
+    <script src="/assets/chart.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="header_links">
+                <li class="logo">URL.Tracker</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="head">
+            <h1 class="description">Most Used Websites</h1>
+          
+        <div class="float">
+            <div class="chart">
+                <div class="chartSize">
+        <canvas id="myPieChart" ></canvas>
+    </div>
+                </div>
+            <div class="list">
+                <table class="scrollable-table">
+                    <thead>
+                        <tr class="header">
+                            <th>Websites</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="top0">...</td>
+                            <td id="ttop0">...</td>
+                        </tr>
+                        <tr>
+                            <td id="top1">...</td>
+                            <td id="ttop1">...</td>
+                        </tr>
+                        <tr>
+                            <td id="top2">...</td>
+                            <td id="ttop2">...</td>
+                        </tr>
+                        <tr>
+                            <td id="top3">...</td>
+                            <td id="ttop3">...</td>
+                        </tr>
+                        <tr>
+                            <td id="top4">...</td>
+                            <td id="ttop4">...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="urls">
+            <h2 class="sticky-headers">Tab Search</h2>
+            <input type="text" id="myInput" onkeyup="search()" placeholder="Search for Tab Name.." title="Type in a name">
+            <div class="recents">
+  
+    <table class="scrollable-table" id="directory">
+        <tr class="title">
+            <th >Domain</th>
+            <th >URL</th>
+            <th >Time</th>
+        </tr>
+        <tbody id="myTable">
+        <tr>
+            <td id="recent1">...</td>
+            <td><a id="title1" target="_blank" href=""></a></td>
+            <td id="time1">...</td>
+        </tr>
+        <tr>
+            <td id="recent2">...</td>
+            <td><a id="title2" target="_blank" href=""></a></td>
+            <td id="time2">...</td>
+        </tr>
+        <tr>
+            <td id="recent3">...</td>
+            <td><a id="title3" target="_blank" href=""></a></td>
+            <td id="time3">...</td>
+        </tr>
+        <tr>
+            <td id="recent4">...</td>
+            <td><a id="title4" target="_blank" href=""></a></td>
+            <td id="time4">...</td>
+        </tr>
+        <tr>
+            <td id="recent5">...</td>
+            <td><a id="title5" target="_blank" href=""></a></td>
+            <td id="time5">...</td>
+        </tr>
+
+
+    </table>
+        </div>
+</div>
+<script src="/assets/script.js"></script>
+
+</body>
+
+</html>

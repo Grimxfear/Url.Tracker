@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "URL.Tracker",
+    "description": "tracks websites visited when the user swaps tabs and updates the current active tab.",
+    "browser_action": {
+      },
+    "background":{
+      "scripts": ["assets/chart.js","assets/popup.js"],
+      "persistent": true    
+    },
+   
+  "permissions": ["tabs"]
+  
+}
+
+ 
